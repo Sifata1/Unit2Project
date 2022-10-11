@@ -1,0 +1,14 @@
+LinearEquation Class
+
+Instance Variables:
+    private int x - This variable represents the x coordinate.
+    private int y - This variable represents the y coordinate.
+
+Constructors:
+    public LinearEquation(int x, int y)
+
+Methods:
+    public double slope() - This method will display the slope of the two points.
+    public double y-int() - This method will display the y intercept of the line.
+    public double distance() - This method will display the distance between the two points.
+    public String toString() - This method will display all information about this instance, including x and y coordinates, slope intercept form equation, etc.
