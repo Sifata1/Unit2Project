@@ -19,8 +19,8 @@ Methods:
     public double distance() - This method will display the distance between the two points, using the equation sqrt((x2-x1)^2 + (y2-y1)^2)
     public String toString() - This method will display all information about this instance, including x and y coordinates, slope intercept form equation, etc.
     public String equation() - This method will return the linear equation of the two points.
-    public void xToInteger() - This method will use the substring method to get the x value and parse it into an integer. (substring.(1, indexOf(,)) // Something along those lines.
-    public void yToInteger() - This method will use the substring method to get the y value and parse it into an integer.
+    public int xToInteger() - This method will use the substring method to get the x value and parse it into an integer. (substring.(1, indexOf(,)) // Something along those lines.
+    public int yToInteger() - This method will use the substring method to get the y value and parse it into an integer.
 
 EquationRunner.java
 
