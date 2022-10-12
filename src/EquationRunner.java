@@ -16,12 +16,16 @@ public class EquationRunner {
         int indexX = secondPair.indexOf(",");
         int indexY = secondPair.indexOf(")");
 
+        int x = index1 + 1;
+        int y = indexX + 1;
+
+
         int substring1x = Integer.parseInt(firstPair.substring(1,index1));
-        int substring1y = Integer.parseInt(firstPair.substring(3,index2));
+        int substring1y = Integer.parseInt(firstPair.substring(x,index2));
         int substring2x = Integer.parseInt(secondPair.substring(1,indexX));
-        int substring2y = Integer.parseInt(secondPair.substring(3,indexY));
+        int substring2y = Integer.parseInt(secondPair.substring(y,indexY));
 
         LinearEquation equation = new LinearEquation(substring1x, substring1y, substring2x, substring2y);
-        System.out.print(equation.run());
+        System.out.print(equation.toString());
     }
 }
