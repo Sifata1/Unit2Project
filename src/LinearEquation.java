@@ -3,13 +3,6 @@ public class LinearEquation {
     private int y1;
     private int x2;
     private int y2;
-    private double slope;
-    private String firstPairInfo;
-    private String secondPairInfo;
-    private String slopeInfo;
-    private String linearEquation;
-    private int rise;
-    private int run;
 
 
     public LinearEquation(int x1, int y1, int x2, int y2) {
@@ -27,25 +20,14 @@ public class LinearEquation {
         return x2 - x1;
     }
 
-    private double slope() {
-        slope = this.rise() / this.run();
-        return slope;
-    }
-
-    private void yint() {
-        double slope = slope();
-        double yint = (y2) - (slope) * x2;
-    }
-
     public String toString()
     {
-        firstPairInfo = "First Pair: (" + x1 + "," + y1 + ")";
-        secondPairInfo = "Second Pair: (" + x2 + "," + y2 + ")";
-        slopeInfo = "Slope: " + slope;
-        rise = this.rise();
-        run = this.run();
-        linearEquation = String.valueOf(rise/run);
-        return firstPairInfo + "\n" + secondPairInfo + "\n" + slopeInfo;
+        String firstPairInfo = "First Pair: (" + x1 + "," + y1 + ")";
+        String secondPairInfo = "Second Pair: (" + x2 + "," + y2 + ")";
+        int rise = this.rise();
+        int run = this.run();
+        String linearEquation = String.valueOf(rise / run);
+        return firstPairInfo + "\n" + secondPairInfo + "\n" + "Slope: " + this.rise() / this.run();
 
     }
 }
