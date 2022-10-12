@@ -27,7 +27,7 @@ Step 2: Ask user to enter first coordinate point.
 Step 3: Parse the coordinate points into their own variables x1 and y1.
 Step 4: Ask user to enter second coordinate point.
 Step 5: Parse the coordinate points into their own variables x2 and y2.
-Step 6: Use rise() and run() method to calculate the rise and run. Divide both of them to calclulate the slope.
+Step 6: Use slope() method to calculate the slope.
 Step 7: Use y-int() method to calculate the y-int.
 Step 8: Use distance() method to calculate the distance.
 Step 9: Use the equation() method to create a linear equation.
