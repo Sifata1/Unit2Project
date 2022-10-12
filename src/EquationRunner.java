@@ -26,6 +26,14 @@ public class EquationRunner {
         int substring2y = Integer.parseInt(secondPair.substring(y,indexY));
 
         LinearEquation equation = new LinearEquation(substring1x, substring1y, substring2x, substring2y);
-        System.out.print(equation.toString());
+        System.out.println(equation.toString());
+
+        System.out.println("Enter an x-value:");
+        double x1 = s.nextDouble();
+        double result = equation.solveEquation(x1);
+        System.out.println("Solved coordinate point is: (" + (int) x1 + "," + result + ")");
+
+
+
     }
 }

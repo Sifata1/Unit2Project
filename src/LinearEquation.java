@@ -6,6 +6,7 @@ public class LinearEquation {
     private int y1;
     private int x2;
     private int y2;
+    private double x;
 
 
     public LinearEquation(int x1, int y1, int x2, int y2)
@@ -54,6 +55,13 @@ public class LinearEquation {
         return distance;
     }
 
+    public double solveEquation(double x)
+    {
+        this.x = x;
+        double solve = (this.slope())*(x) + this.intercept();
+        return solve;
+    }
+
     public String toString()
     {
         String firstPairInfo = "First Pair: (" + x1 + "," + y1 + ")";
@@ -61,7 +69,7 @@ public class LinearEquation {
         String slopeInfo = "Slope of Line: " + this.slope();
         String intercept = "Y-Intercept: " + this.intercept();
         String linearEquation = "Slope Intercept Form: " + this.equation();
-        String distance = "Distance Between Points: ";
+        String distance = "Distance Between Points: " + this.distance();
         return firstPairInfo + "\n" + secondPairInfo + "\n" + slopeInfo + "\n" + intercept  + "\n" + linearEquation + "\n" + distance;
 
 
