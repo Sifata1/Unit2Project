@@ -69,8 +69,7 @@ public class LinearEquation {
         String slopeInfo = "Slope of Line: " + this.slope();
         String intercept = "Y-Intercept: " + this.intercept();
         String linearEquation = "Slope Intercept Form: " + this.equation();
-        String distance = "Distance Between Points: " + this.distance();
-        return firstPairInfo + "\n" + secondPairInfo + "\n" + slopeInfo + "\n" + intercept  + "\n" + linearEquation + "\n" + distance;
+        return firstPairInfo + "\n" + secondPairInfo + "\n" + slopeInfo + "\n" + intercept  + "\n" + linearEquation;
 
 
     }

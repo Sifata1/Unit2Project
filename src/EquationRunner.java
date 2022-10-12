@@ -28,6 +28,7 @@ public class EquationRunner {
         LinearEquation equation = new LinearEquation(substring1x, substring1y, substring2x, substring2y);
         System.out.println(equation.toString());
 
+        System.out.printf("Distance Between Points: "+ "%.2f" + "\n", equation.distance());
         System.out.println("Enter an x-value:");
         double x1 = s.nextDouble();
         double result = equation.solveEquation(x1);
