@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95c55e19-3685-42e3-964a-f8fb154d447e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/EquationRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinearEquation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignDocument" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignDocument" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EquationRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EquationRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +35,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="EquationRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EquationRunner" />
+      <module name="Unit2Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EquationRunner" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,11 +72,19 @@
       <option name="project" value="LOCAL" />
       <updated>1665504913527</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Started Runner class">
+      <created>1665589037448</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665589037448</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started DesignDocument" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started DesignDocument" />
+    <MESSAGE value="Started Runner class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started Runner class" />
   </component>
 </project>

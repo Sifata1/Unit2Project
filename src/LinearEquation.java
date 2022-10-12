@@ -36,4 +36,5 @@ public class LinearEquation {
         double yint = (y2) - (slope) * x2;
     }
 
+    
 }
