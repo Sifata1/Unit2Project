@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-import static java.lang.Integer.parseInt;
 
 public class EquationRunner {
     public static void main(String[] args)
     {
+
         Scanner s = new Scanner(System.in);
         System.out.println("Enter the first x-y coordinate point:");
         String firstPair = s.nextLine();
@@ -28,7 +28,6 @@ public class EquationRunner {
         LinearEquation equation = new LinearEquation(substring1x, substring1y, substring2x, substring2y);
         System.out.println(equation.toString());
 
-        System.out.printf("Distance Between Points: "+ "%.2f" + "\n", equation.distance());
         System.out.println("Enter an x-value:");
         double x1 = s.nextDouble();
         double result = equation.solveEquation(x1);

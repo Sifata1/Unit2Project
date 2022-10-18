@@ -1,5 +1,7 @@
 import static java.lang.Math.pow;
 import static java.lang.Math.sqrt;
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
 
 public class LinearEquation {
     private int x1;
@@ -8,6 +10,7 @@ public class LinearEquation {
     private int y2;
     private double x;
 
+    private static final DecimalFormat df = new DecimalFormat("0.00");
 
     public LinearEquation(int x1, int y1, int x2, int y2)
     {
@@ -69,7 +72,8 @@ public class LinearEquation {
         String slopeInfo = "Slope of Line: " + this.slope();
         String intercept = "Y-Intercept: " + this.intercept();
         String linearEquation = "Slope Intercept Form: " + this.equation();
-        return firstPairInfo + "\n" + secondPairInfo + "\n" + slopeInfo + "\n" + intercept  + "\n" + linearEquation;
+        String distance = "Distance Between Points: " + df.format(this.distance());
+        return firstPairInfo + "\n" + secondPairInfo + "\n" + slopeInfo + "\n" + intercept  + "\n" + linearEquation + "\n" + distance;
 
 
     }

@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95c55e19-3685-42e3-964a-f8fb154d447e" name="Changes" comment="Started Runner class" />
+    <list default="true" id="95c55e19-3685-42e3-964a-f8fb154d447e" name="Changes" comment="Started Runner class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignDocument" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignDocument" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EquationRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EquationRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinearEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinearEquation.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

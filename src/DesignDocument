@@ -5,6 +5,7 @@ Instance Variables:
     private int y1 - This variable represents the y coordinate.
     private int x2 - This variable represents the x coordinate.
     private int y2 - This variable represents the y coordinate.
+    private double x - This variable
 
 Constructors:
     public LinearEquation(int x1, int y1, int x2, int y2)
