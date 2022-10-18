@@ -31,7 +31,7 @@ public class EquationRunner {
         System.out.println("Enter an x-value:");
         double x1 = s.nextDouble();
         double result = equation.solveEquation(x1);
-        System.out.println("Solved coordinate point is: (" + (int) x1 + "," + result + ")");
+        System.out.println("Solved coordinate point is: (" + (double) x1 + ", " + result + ")");
 
 
 

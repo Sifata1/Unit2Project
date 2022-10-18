@@ -1,11 +1,17 @@
 LinearEquation Class
 
+Import:
+import static java.lang.Math.pow; - This will allow me to take the square of a number.
+import static java.lang.Math.sqrt; - This will allow me to take the root of a number.
+import java.text.DecimalFormat; - This will allow me to round my numbers.
+
 Instance Variables:
     private int x1 - This variable represents the x coordinate.
     private int y1 - This variable represents the y coordinate.
     private int x2 - This variable represents the x coordinate.
     private int y2 - This variable represents the y coordinate.
-    private double x - This variable
+    private double x - This variable represents the x coordinate
+    private static final DecimalFormat df = new DecimalFormat("0.00");
 
 Constructors:
     public LinearEquation(int x1, int y1, int x2, int y2)

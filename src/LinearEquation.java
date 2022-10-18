@@ -1,6 +1,5 @@
 import static java.lang.Math.pow;
 import static java.lang.Math.sqrt;
-import java.math.RoundingMode;
 import java.text.DecimalFormat;
 
 public class LinearEquation {
@@ -9,7 +8,6 @@ public class LinearEquation {
     private int x2;
     private int y2;
     private double x;
-
     private static final DecimalFormat df = new DecimalFormat("0.00");
 
     public LinearEquation(int x1, int y1, int x2, int y2)
@@ -61,7 +59,7 @@ public class LinearEquation {
     public double solveEquation(double x)
     {
         this.x = x;
-        double solve = (this.slope())*(x) + this.intercept();
+        double solve = ((double)this.slope())*(x) + this.intercept();
         return solve;
     }
 
