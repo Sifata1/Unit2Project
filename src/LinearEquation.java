@@ -1,6 +1,6 @@
-import static java.lang.Math.pow;
-import static java.lang.Math.sqrt;
 import java.text.DecimalFormat;
+
+import static java.lang.Math.*;
 
 public class LinearEquation {
     private int x1;
@@ -30,21 +30,21 @@ public class LinearEquation {
 
     public double slope()
     {
-        int rise = this.rise();
-        int run = this.run();
-        double slope = rise/run;
+        double rise = this.rise();
+        double run = this.run();
+        double slope = (rise) / (run);
         return slope;
     }
 
-    public int intercept()
+    public double intercept()
     {
-        int intercept = (int) (y2 - (this.slope() * x2));
+        double intercept = (double) (y2 - (this.slope() * x2));
         return intercept;
     }
 
     public String equation()
     {
-        String linearEquation = "Slope Intercept Form: y = " + this.rise() + "/" + this.run() + "x + " + this.intercept();
+        String linearEquation = "Slope Intercept Form: y = " + this.rise() + "/" + this.run() + "x + " + Math.round((this.intercept())*100.00)/(100.00);
         return linearEquation;
     }
 
@@ -67,10 +67,10 @@ public class LinearEquation {
     {
         String firstPairInfo = "First Pair: (" + x1 + "," + y1 + ")";
         String secondPairInfo = "Second Pair: (" + x2 + "," + y2 + ")";
-        String slopeInfo = "Slope of Line: " + this.slope();
-        String intercept = "Y-Intercept: " + this.intercept();
+        String slopeInfo = "Slope of Line: " + Math.round(this.slope()*100.00)/100.00;
+        String intercept = "Y-Intercept: " + Math.round(this.intercept()*100.00)/100.00;
         String linearEquation = "Slope Intercept Form: " + this.equation();
-        String distance = "Distance Between Points: " + df.format(this.distance());
+        String distance = "Distance Between Points: " + Math.round(this.distance()*100.00)/100.00;
         return firstPairInfo + "\n" + secondPairInfo + "\n" + slopeInfo + "\n" + intercept  + "\n" + linearEquation + "\n" + distance;
 
 
