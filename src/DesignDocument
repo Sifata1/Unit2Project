@@ -1,9 +1,8 @@
 LinearEquation Class
 
 Import:
-import static java.lang.Math.pow; - This will allow me to take the square of a number.
-import static java.lang.Math.sqrt; - This will allow me to take the root of a number.
-import java.text.DecimalFormat; - This will allow me to round my numbers.
+import static java.lang.Math.*; - This will allow me to use the math class.
+import java.util.Scanner; - This will allow me to use the scanner class.
 
 Instance Variables:
     private int x1 - This variable represents the x coordinate.
@@ -11,7 +10,6 @@ Instance Variables:
     private int x2 - This variable represents the x coordinate.
     private int y2 - This variable represents the y coordinate.
     private double x - This variable represents the x coordinate
-    private static final DecimalFormat df = new DecimalFormat("0.00");
 
 Constructors:
     public LinearEquation(int x1, int y1, int x2, int y2)
@@ -20,12 +18,11 @@ Methods:
     public int rise() - This method will return y2-y1.
     public int run() - This method will return x2-x1.
     public double slope() - This method will calculate the slope. (rise/run)
-    public double y-int() - This method will return the y intercept of the line.
+    public double intercept() - This method will return the y intercept of the line.
     public double distance() - This method will display the distance between the two points, using the equation sqrt((x2-x1)^2 + (y2-y1)^2)
-    public String toString() - This method will display all information about this instance, including x and y coordinates, slope intercept form equation, etc.
+    public String toString() - This method will display and calculate all information about this instance, including x and y coordinates, slope intercept form equation, etc.
     public String equation() - This method will return the linear equation of the two points.
-    public int xToInteger() - This method will use the substring method to get the x value and parse it into an integer. (substring.(1, indexOf(,)) // Something along those lines.
-    public int yToInteger() - This method will use the substring method to get the y value and parse it into an integer.
+    public double solveEquation(x) - This method will return the y coordinate of the linear equation when a specific x value is inputted.
 
 EquationRunner.java
 
@@ -34,8 +31,7 @@ Step 2: Ask user to enter first coordinate point.
 Step 3: Parse the coordinate points into their own variables x1 and y1.
 Step 4: Ask user to enter second coordinate point.
 Step 5: Parse the coordinate points into their own variables x2 and y2.
-Step 6: Use slope() method to calculate the slope.
-Step 7: Use y-int() method to calculate the y-int.
-Step 8: Use distance() method to calculate the distance.
-Step 9: Use the equation() method to create a linear equation.
-Step 10: Use the toString method to display all of the information.
+Step 6: Create a new LinearEquation object.
+Step 7: Display all information using toString method.
+Step 8: Ask user for new x value and use scanner to input as a double.
+Step 9: Display the solved coordinate point.

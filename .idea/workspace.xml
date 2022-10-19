@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95c55e19-3685-42e3-964a-f8fb154d447e" name="Changes" comment="Finished Coding">
+    <list default="true" id="95c55e19-3685-42e3-964a-f8fb154d447e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignDocument" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignDocument" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EquationRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EquationRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinearEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinearEquation.java" afterDir="false" />
     </list>
@@ -118,7 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666109941915</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Finished Coding">
+      <created>1666139027860</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666139027861</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Finished Coding">
+      <created>1666139201747</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666139201747</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

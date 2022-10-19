@@ -1,5 +1,3 @@
-import java.text.DecimalFormat;
-
 import static java.lang.Math.*;
 
 public class LinearEquation {
